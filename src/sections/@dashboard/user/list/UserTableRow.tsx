@@ -37,7 +37,7 @@ export default function UserTableRow({
   onSelectRow,
   onDeleteRow,
 }: Props) {
-  const { name, avatarUrl, company, isVerified, role, status, phoneNumber, price } = row;
+  const { name, avatarUrl, company, isVerified, role, status, phoneNumber } = row;
 
   const [openConfirm, setOpenConfirm] = useState(false);
 
