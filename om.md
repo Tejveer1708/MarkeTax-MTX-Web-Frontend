@@ -1,0 +1,7 @@
+- yarn add/ npm install - adding one package
+---
+- For Purchase Master
+  - http://localhost:3000/dashboard/invoice/purchase
+---
+- For Sales Master
+  - http://localhost:3000/dashboard/invoice/sales
