@@ -1,4 +1,5 @@
 import { Navigate, useRoutes } from 'react-router-dom';
+import AccountPage from 'src/pages/dashboard/EcommerceProductAccount';
 // auth
 import AuthGuard from '../auth/AuthGuard';
 import GuestGuard from '../auth/GuestGuard';
@@ -139,7 +140,6 @@ import {
   CashAccountMaster,
   JounralVoucherMaster,
 } from './elements';
-import AccountPage from 'src/pages/dashboard/EcommerceProductAccount';
 
 // ----------------------------------------------------------------------
 

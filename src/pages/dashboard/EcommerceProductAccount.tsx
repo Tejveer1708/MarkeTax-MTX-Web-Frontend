@@ -139,7 +139,6 @@ export default function UserListPage() {
     setPage(0);
     setFilterName(event.target.value);
   };
-
   const handleFilterRole = (event: React.ChangeEvent<HTMLInputElement>) => {
     setPage(0);
     setFilterRole(event.target.value);
